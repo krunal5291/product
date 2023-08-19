@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #ui {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+    
+
+        #ui div img {
+            width: 300px;
+        }
+        #btns{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <input type="text" placeholder="title" id="title">
+        <input type="url" placeholder="url" id="img">
+        <input type="number" placeholder="price" id="price">
+        <input type="text" placeholder="category" id="category">
+        <input type="submit">
+
+    </form>
+    <hr>
+
+    <div id="btns">
+        <button id="lth">low to high</button>
+        <button id='htl'>high to low</button>
+        <!-- <button id="men">men</button>
+        <button id="women">women</button>
+        <button id="kids">kids</button> -->
+    </div>
+    <div id="ui">
+
+      <div id="ui">
+
+      </div>
+    </div>
+</body>
+<script src="prodact.js"></script>
+
+</html>
