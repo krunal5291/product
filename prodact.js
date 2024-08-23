@@ -44,7 +44,6 @@ const handlehtl = () => {
   console.log(data);
 };
 document.getElementById("htl").addEventListener("click", handlehtl);
-document.getElementById("htl").addEventListener("click", handlehtl);
 
 // filter products by category
 
